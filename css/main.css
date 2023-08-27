@@ -110,7 +110,8 @@ body{
 
 /* offers */
 #offers{
-    background: url(../images/banner.jpg)center/cover no-repeat;
+    background: linear-gradient(rgba(34, 36, 41, .6), rgba(34, 36, 41, .6)), url(../images/banner.jpg) top center no-repeat;
+    background-size: cover;
 }
 #offers .row{
     min-height: 60vh;
