@@ -52,59 +52,11 @@ body{
 }
 
 /* header */ 
-/* #header{
-    background: url(../images/banner.jpg) top/cover no-repeat;
-}
-     */
-
-/* .carousel-inner h1{
-    font-size: 60px;
-    font-family: var(--lg-font);
-}
-.carousel-item .btn{
-    border-color: #fff!important;
-}
-.carousel-item .btn:hover{
-    border-color: var(--pink)!important;
-} */
-
-.carousel-caption {
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    background: rgba(34, 36, 41, .8);
-    z-index: 1;
-}
-
-@media (max-width: 576px) {
-    .carousel-caption h4 {
-        font-size: 18px;
-        font-weight: 500 !important;
-    }
-
-    .carousel-caption h1 {
-        font-size: 30px;
-        font-weight: 600 !important;
-    }
-}
-
-.carousel-control-prev,
-.carousel-control-next {
-    width: 10%;
-}
-
-.carousel-control-prev-icon,
-.carousel-control-next-icon {
-    width: 3rem;
-    height: 3rem;
-}
-
-.bg-hero {
+#header{
     background: linear-gradient(rgba(34, 36, 41, .8), rgba(34, 36, 41, .8)), url(../images/banner.jpg) top center no-repeat;
     background-size: cover;
 }
-
+    
 
 /* title */
 .title h2::before{
