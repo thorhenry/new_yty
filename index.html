@@ -26,13 +26,14 @@
             <div class = "order-lg-2 nav-btns">
                 <button type = "button" class = "btn position-relative">
                     <i class = "fa fa-shopping-cart"></i>
-                    <span class = "position-absolute top-0 start-100 translate-middle badge bg-primary">5</span>
+                    <span class = "position-absolute top-0 start-100 translate-middle badge bg-primary">3</span>
                 </button>
                 <button type = "button" class = "btn position-relative">
                     <i class = "fa fa-heart"></i>
-                    <span class = "position-absolute top-0 start-100 translate-middle badge bg-primary">2</span>
+                    <span class = "position-absolute top-0 start-100 translate-middle badge bg-primary">12</span>
                 </button>
                 <button type = "button" class = "btn position-relative">
+                    <input type="text" name="" id="search-item" placeholder="Search products" onkeyup="search()">
                     <i class = "fa fa-search"></i>
                 </button>
             </div>
@@ -120,6 +121,8 @@
                                 <span class = "text-primary"><i class = "fas fa-star"></i></span>
                             </div>
                             <p class = "text-capitalize my-1">Short Sleeve</p>
+                            <span class = "fw-light" style="text-decoration: line-through; color: red;">UGX 40,000</span>
+                            <br>
                             <span class = "fw-bold">UGX 35,000</span>
                         </div>
                     </div>
@@ -138,6 +141,8 @@
                                 <span class = "text-primary"><i class = "fas fa-star"></i></span>
                             </div>
                             <p class = "text-capitalize my-1">Collar Shirt</p>
+                            <span class = "fw-light" style="text-decoration: line-through; color: red;">UGX 45,000</span>
+                            <br>
                             <span class = "fw-bold">UGX 40,000</span>
                         </div>
                     </div>
@@ -156,6 +161,8 @@
                                 <span class = "text-primary"><i class = "fas fa-star"></i></span>
                             </div>
                             <p class = "text-capitalize my-1">Long Sleeve</p>
+                            <span class = "fw-light" style="text-decoration: line-through; color: red;">UGX 50,000</span>
+                            <br>
                             <span class = "fw-bold">UGX 45,000</span>
                         </div>
                     </div>
@@ -174,6 +181,8 @@
                                 <span class = "text-primary"><i class = "fas fa-star"></i></span>
                             </div>
                             <p class = "text-capitalize my-1">Hoodie</p>
+                            <span class = "fw-light" style="text-decoration: line-through; color: red;">UGX 65,000</span>
+                            <br>
                             <span class = "fw-bold">UGX 55,000</span>
                         </div>
                     </div>
@@ -192,6 +201,8 @@
                                 <span class = "text-primary"><i class = "fas fa-star"></i></span>
                             </div>
                             <p class = "text-capitalize my-1">Sweater Shirt</p>
+                            <span class = "fw-light" style="text-decoration: line-through; color: red;">UGX 60,000</span>
+                            <br>
                             <span class = "fw-bold">UGX 50,000</span>
                         </div>
                     </div>
@@ -210,6 +221,8 @@
                                 <span class = "text-primary"><i class = "fas fa-star"></i></span>
                             </div>
                             <p class = "text-capitalize my-1">Sweater Pant</p>
+                            <span class = "fw-light" style="text-decoration: line-through; color: red;">UGX 80,000</span>
+                            <br>
                             <span class = "fw-bold">UGX 60,000</span>
                         </div>
                     </div>
@@ -228,6 +241,8 @@
                                 <span class = "text-primary"><i class = "fas fa-star"></i></span>
                             </div>
                             <p class = "text-capitalize my-1">YTY Cap</p>
+                            <span class = "fw-light" style="text-decoration: line-through; color: red;">UGX 30,000</span>
+                            <br>
                             <span class = "fw-bold">UGX 20,000</span>
                         </div>
                     </div>
@@ -246,6 +261,8 @@
                                 <span class = "text-primary"><i class = "fas fa-star"></i></span>
                             </div>
                             <p class = "text-capitalize my-1">YTY Bag</p>
+                            <span class = "fw-light" style="text-decoration: line-through; color: red;">UGX 120,000</span>
+                            <br>
                             <span class = "fw-bold">UGX 85,000</span>
                         </div>
                     </div>
@@ -272,6 +289,8 @@
                     </div>
                     <div class = "text-center">
                         <p class = "text-capitalize mt-3 mb-1">Black Shoe</p>
+                        <span class = "fw-light" style="text-decoration: line-through; color: red;">UGX 150,000</span>
+                            <br>
                         <span class = "fw-bold d-block">UGX 100,000</span>
                         <a href = "https://yty.ulinkwebsite.com" class = "btn btn-primary mt-3">Add to Cart</a>
                     </div>
@@ -286,6 +305,8 @@
                     </div>
                     <div class = "text-center">
                         <p class = "text-capitalize mt-3 mb-1">Yellow Hoodie</p>
+                        <span class = "fw-light" style="text-decoration: line-through; color: red;">UGX 65,000</span>
+                            <br>
                         <span class = "fw-bold d-block">UGX 55,000</span>
                         <a href = "https://yty.ulinkwebsite.com" class = "btn btn-primary mt-3">Add to Cart</a>
                     </div>
@@ -300,6 +321,8 @@
                     </div>
                     <div class = "text-center">
                         <p class = "text-capitalize mt-3 mb-1">White Shoe</p>
+                        <span class = "fw-light" style="text-decoration: line-through; color: red;">UGX 150,000</span>
+                            <br>
                         <span class = "fw-bold d-block">UGX 120,000</span>
                         <a href = "https://yty.ulinkwebsite.com" class = "btn btn-primary mt-3">Add to Cart</a>
                     </div>
@@ -314,6 +337,8 @@
                     </div>
                     <div class = "text-center">
                         <p class = "text-capitalize mt-3 mb-1">Grey Hoodie</p>
+                        <span class = "fw-light" style="text-decoration: line-through; color: red;">UGX 65,000</span>
+                            <br>
                         <span class = "fw-bold d-block">UGX 55,000</span>
                         <a href = "https://yty.ulinkwebsite.com" class = "btn btn-primary mt-3">Add to Cart</a>
                     </div>
@@ -364,7 +389,7 @@
                 </div>
                 <div class="col-lg-7 col-md-12 wow fadeInUp" data-wow-delay="0.5s">
                     <p class="mb-4"></p>
-                    <form>
+                    <!-- <form>
                         <div class="row g-3" action="https://formsubmit.co/ytyclothingbrand@gmail.com" method="POST">
                             <div class="col-md-6">
                                 <div class="form-floating">
@@ -394,7 +419,8 @@
                                 <button class="btn btn-primary rounded-pill py-3 px-5" type="submit">Send Message</button>
                             </div>
                         </div>
-                    </form>
+                    </form> -->
+                    <div class="visme_d" data-title="Responsive Contact Form" data-url="pvmzn84e-responsive-contact-form" data-domain="forms" data-full-page="false" data-min-height="500px" data-form-id="32160"></div><script src="https://static-bundles.visme.co/forms/vismeforms-embed.js"></script>
                 </div>
             </div>
         </div>
@@ -518,7 +544,7 @@
 
     <!-- newsletter -->
     <section id = "newsletter" class = "py-5">
-        <div class = "container">
+        <!-- <div class = "container">
             <div class = "d-flex flex-column align-items-center justify-content-center">
                 <div class = "title text-center pt-3 pb-5">
                     <h2 class = "position-relative d-inline-block ms-4">Newsletter Subscription</h2>
@@ -530,7 +556,8 @@
                     <button class = "btn btn-primary" type = "submit">Subscribe</button>
                 </div>
             </div>
-        </div>
+        </div> -->
+        <div class="visme_d" data-title="yty" data-url="vdno16jz-yty" data-domain="forms" data-full-page="false" data-min-height="500px" data-form-id="32269"></div><script src="https://static-bundles.visme.co/forms/vismeforms-embed.js"></script>
     </section>
     <!-- end of newsletter -->
 
@@ -547,22 +574,22 @@
                     <h5 class = "fw-light">Links</h5>
                     <ul class = "list-unstyled">
                         <li class = "my-3">
-                            <a href = "#" class = "text-white text-decoration-none text-muted">
+                            <a href = "#header" class = "text-white text-decoration-none text-muted">
                                 <i class = "fas fa-chevron-right me-1"></i> Home
                             </a>
                         </li>
                         <li class = "my-3">
-                            <a href = "#" class = "text-white text-decoration-none text-muted">
+                            <a href = "#collection" class = "text-white text-decoration-none text-muted">
                                 <i class = "fas fa-chevron-right me-1"></i> Collection
                             </a>
                         </li>
                         <li class = "my-3">
-                            <a href = "#" class = "text-white text-decoration-none text-muted">
-                                <i class = "fas fa-chevron-right me-1"></i> Blogs
+                            <a href = "#offers" class = "text-white text-decoration-none text-muted">
+                                <i class = "fas fa-chevron-right me-1"></i> Offers
                             </a>
                         </li>
                         <li class = "my-3">
-                            <a href = "#" class = "text-white text-decoration-none text-muted">
+                            <a href = "#about" class = "text-white text-decoration-none text-muted">
                                 <i class = "fas fa-chevron-right me-1"></i> About Us
                             </a>
                         </li>
@@ -651,6 +678,8 @@
     <script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.js"></script>
     <!-- bootstrap js -->
     <script src = "bootstrap-5.0.2-dist/js/bootstrap.min.js"></script>
+    <!-- search js -->
+    <script src = "js/app.js"></script>
     <!-- custom js -->
     <script src = "js/script.js"></script>
 </body>
